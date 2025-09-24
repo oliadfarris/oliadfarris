@@ -1,0 +1,4 @@
+baseURL = 'https://ollie.report/'
+languageCode = 'en-us'
+title = 'The Ollie Report'
+theme = 'ananke'
