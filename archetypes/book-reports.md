@@ -1,20 +1,23 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+draft: false
 categories: ["book-reports"]
 ---
 
 ## The Book
-**Title:** 
+**Title:** {{ replace .Name "-" " " | title }}
 **Author:** 
+**Pages:** 41
 
 <!--more-->
 
-![Book Cover](book-cover.jpg)
+![Book Cover](book-cover.jpeg)
 
 ## What Happened
 The story is about...
+
+## I liked this book because
 
 ## My Rating
 ⭐⭐⭐⭐⭐
